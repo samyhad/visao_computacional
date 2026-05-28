@@ -19,7 +19,10 @@ while True:
     cv.imshow('frame', frame)
     
     if cv.waitKey(1) == ord('q'):
+        cv.imwrite('webcam_capture.jpg', frame)  # Save the captured frame as an image file
+        print("Frame captured and saved as 'webcam_capture.jpg'. Exiting...")
         break
+
 
 # When everything done, release the capture
 cap.release()

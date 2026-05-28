@@ -18,5 +18,9 @@ Para deixar o vídeo mais ou menos rápido basta alterar essa "velocidade" de ex
 O que possibilita controlar a velocidade de exibição dos frames é justamente a linha 15 do arquivo L__2_video.py (time.sleep(1/25)), nela setamos a quantidade de frames que serão exibidos por segundo (fps), o original está setado em 25 fps (1/25 segundos para cada frame), para aumentar a velocidade para 120 fps podemos mudar essa linha para time.sleep(1/120.0) e para diminuir a velocidade para 10 fps podemos mudar essa linha para time.sleep(1/10.0). 
 Reexecutando o arquivo com essas duas alterações podemos perceber que o vídeo big_buck_bunny.mp4 aumenta ou diminui nítidamente sua velocidade
 
+## Exercício 3
+O comando para salvar frames capturados pela webcam é o seguinte: cv.imwrite('webcam_capture.jpg', frame)
+
+
 
 
