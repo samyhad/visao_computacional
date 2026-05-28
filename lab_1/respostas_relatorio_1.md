@@ -1,7 +1,10 @@
 # Laboratório 1
 
 Integrantes:
-    Samira Haddad
+    Samira Haddad, 11201812350
+    Lucas Medeiros da Silva, 11202130277
+    Gabriel Intackli Pinto, 11201921426
+    
 
 
 ## Exercício 1
